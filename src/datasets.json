@@ -1,0 +1,233 @@
+[
+    {
+        "id": "bipartite-user-movie-medium-3",
+        "name": "bipartite network (user-movie) medium 3",
+        "source": "IMDB Movie",
+        "numNodes": 1088,
+        "numEdges": 5000,
+        "numTypes": 2,
+        "nodeFeatures": "yes",
+        "hops": 2,
+        "desc": "Demo dataset used in paper"
+    },
+    {
+        "id": "cora-gat",
+        "name": "cora-GAT",
+        "source": "paper citation network",
+        "numNodes": 2708,
+        "numEdges": 10556,
+        "numTypes": 1,
+        "nodeFeatures": "One-hot word vector (binary). Dictionary length: 1433.",
+        "hops": 2,
+        "desc": "Demo dataset used in paper"
+    },
+    {
+        "id": "bipartite-user-movie-medium-1",
+        "name": "bipartite network (user-movie) medium 1",
+        "source": "IMDB Movie",
+        "numNodes": 259,
+        "numEdges": 800,
+        "numTypes": 2,
+        "nodeFeatures": "yes",
+        "hops": 2,
+        "desc": "Dataset for development and debugging"
+    },
+    {
+        "id": "bipartite-user-movie-medium-2",
+        "name": "bipartite network (user-movie) medium 2",
+        "source": "IMDB Movie",
+        "numNodes": 780,
+        "numEdges": 3200,
+        "numTypes": 2,
+        "nodeFeatures": "yes",
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "tripartite-user-movie-genre-medium-1",
+        "name": "tripartite network (user-movie) medium 1",
+        "source": "IMDB Movie",
+        "numNodes": 269,
+        "numEdges": 861,
+        "numTypes": 3,
+        "nodeFeatures": "none",
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "large-100-movies-with-ratings",
+        "name": "large-100-w-ratings",
+        "source": "IMDB Movie",
+        "numNodes": 1815,
+        "numEdges": 2797,
+        "numTypes": 5,
+        "nodeFeatures": "none",
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "large-500-movies-with-ratings",
+        "name": "large-500-w-ratings",
+        "source": "IMDB Movie",
+        "numNodes": 11415,
+        "numEdges": 22453,
+        "nodeFeatures": "none",
+        "numTypes": 5,
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "toronto-rest-20-user-50",
+        "name": "bipartite network (user-restaurant) medium 1",
+        "source": "Yelp",
+        "numNodes": 637,
+        "numEdges": 680,
+        "numTypes": 2,
+        "nodeFeatures": "2 for restaurants, 6 for users",
+        "hops": 2,
+        "desc": "Sampled 20 restaurants in Toronto and sampled 50 users each"
+    },
+    {
+        "id": "toronto-rest-50-user-50",
+        "name": "bipartite network (user-restaurant) medium 2",
+        "source": "Yelp",
+        "numNodes": 1225,
+        "numEdges": 1401,
+        "numTypes": 2,
+        "nodeFeatures": "no",
+        "hops": 2,
+        "desc": "Sampled 50 restaurants in Toronto and sampled 50 users each."
+    },
+    {
+        "id": "citeseer-gat",
+        "name": "citeseer-GAT",
+        "source": "paper citation network",
+        "numNodes": 3327,
+        "numEdges": 4552,
+        "numTypes": 1,
+        "nodeFeatures": "One-hot word vector (binary).  Dictionary length: 3703.",
+        "hops": 2,
+        "desc": "Applying GAT on CiteSeer dataset"
+    },
+    {
+        "id": "pubmed-gat",
+        "name": "pubmed-GAT",
+        "source": "paper citation network",
+        "numNodes": 19717,
+        "numEdges": 44324,
+        "numTypes": 1,
+        "nodeFeatures": "TF/IDF weighted word vector. Dictionary length 500.",
+        "hops": 2,
+        "desc": "Applying GAT on Pubmed dataset"
+    },
+    {
+        "id": "power-gcn",
+        "name": "power-gcn",
+        "source": "Power dataset from P2 in paper",
+        "numNodes": 4941,
+        "numEdges": 6594,
+        "numTypes": 1,
+        "nodeFeatures": "none",
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "usair-gcn",
+        "name": "USAir-gcn",
+        "source": "USAir dataset from P2 in paper",
+        "numNodes": 332,
+        "numEdges": 2126,
+        "numTypes": 1,
+        "nodeFeatures": "none",
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "power-graphsage",
+        "name": "power-graphsage",
+        "source": "Power dataset from P2 in paper",
+        "numNodes": 4941,
+        "numEdges": 6594,
+        "numTypes": 1,
+        "nodeFeatures": "none",
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "usair-graphsage",
+        "name": "USAir-graphsage",
+        "source": "USAir dataset from P2 in paper",
+        "numNodes": 332,
+        "numEdges": 2126,
+        "numTypes": 1,
+        "nodeFeatures": "none",
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "coauthor-sample-100",
+        "name": "Coauthor network sample 100",
+        "source": "DBLP coauthor network",
+        "numNodes": 100,
+        "numEdges": 348,
+        "numTypes": 1,
+        "nodeFeatures": "none",
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "coauthor-sample-500",
+        "name": "Coauthor network sample 500",
+        "source": "DBLP coauthor network",
+        "numNodes": 500,
+        "numEdges": 2343,
+        "numTypes": 1,
+        "nodeFeatures": "none",
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "coauthor-sample-1000",
+        "name": "Coauthor network sample 1000",
+        "source": "DBLP coauthor network",
+        "numNodes": 1000,
+        "numEdges": 5494,
+        "numTypes": 1,
+        "nodeFeatures": "none",
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "coauthor-sample-5000",
+        "name": "Coauthor network sample 5000",
+        "source": "DBLP coauthor network",
+        "numNodes": 5000,
+        "numEdges": 27109,
+        "numTypes": 1,
+        "nodeFeatures": "none",
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "coauthor-sample-10000",
+        "name": "Coauthor network sample 10000",
+        "source": "DBLP coauthor network",
+        "numNodes": 10000,
+        "numEdges": 54348,
+        "numTypes": 1,
+        "nodeFeatures": "none",
+        "hops": 2,
+        "desc": ""
+    },
+    {
+        "id": "coauthor-full",
+        "name": "Coauthor network full",
+        "source": "DBLP coauthor network",
+        "numNodes": 69109,
+        "numEdges": 249613,
+        "numTypes": 1,
+        "nodeFeatures": "none",
+        "hops": 2,
+        "desc": "trained by LINE (Tang et al. 2015). Not available due to large size of processed file."
+    }
+]
