@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 
 export default function AppNav({ datasetName, stats }) {
@@ -14,7 +15,9 @@ export default function AppNav({ datasetName, stats }) {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="/upload">Upload</Nav.Link>
+                    <Nav.Item>
+                        <Link to="upload">Upload</Link>
+                    </Nav.Item>
                 </Nav>
                 <Navbar.Text className="justify-content-end">
                     {datasetName ? `Dataset: ${datasetName} (V=${stats.numNodes}, E=${stats.numEdges})` : ""}

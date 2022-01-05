@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import "./index.css";
 import { Provider } from "react-redux";
 import { applyMiddleware, createStore } from "redux";
-import { BrowserRouter as Router, Switch, Route, useParams } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 import rootReducer from "./reducers";
 import App from "./components/App";

@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "./static/css/main.be8411be.chunk.css",
-    "main.js": "./static/js/main.ef8229b5.chunk.js",
-    "main.js.map": "./static/js/main.ef8229b5.chunk.js.map",
+    "main.js": "./static/js/main.f83d0cbc.chunk.js",
+    "main.js.map": "./static/js/main.f83d0cbc.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.f151cf32.js",
     "runtime-main.js.map": "./static/js/runtime-main.f151cf32.js.map",
-    "static/js/2.9d550760.chunk.js": "./static/js/2.9d550760.chunk.js",
-    "static/js/2.9d550760.chunk.js.map": "./static/js/2.9d550760.chunk.js.map",
+    "static/js/2.099b4457.chunk.js": "./static/js/2.099b4457.chunk.js",
+    "static/js/2.099b4457.chunk.js.map": "./static/js/2.099b4457.chunk.js.map",
     "distance.worker.worker.js": "./distance.worker.worker.js",
     "distance.worker.worker.js.LICENSE.txt": "./distance.worker.worker.js.LICENSE.txt",
     "distance.worker.worker.js.map": "./distance.worker.worker.js.map",
@@ -17,15 +17,15 @@
     "initialLayout.worker.worker.js": "./initialLayout.worker.worker.js",
     "initialLayout.worker.worker.js.map": "./initialLayout.worker.worker.js.map",
     "static/css/main.be8411be.chunk.css.map": "./static/css/main.be8411be.chunk.css.map",
-    "static/js/2.9d550760.chunk.js.LICENSE.txt": "./static/js/2.9d550760.chunk.js.LICENSE.txt",
+    "static/js/2.099b4457.chunk.js.LICENSE.txt": "./static/js/2.099b4457.chunk.js.LICENSE.txt",
     "umap.worker.worker.js": "./umap.worker.worker.js",
     "umap.worker.worker.js.LICENSE.txt": "./umap.worker.worker.js.LICENSE.txt",
     "umap.worker.worker.js.map": "./umap.worker.worker.js.map"
   },
   "entrypoints": [
     "static/js/runtime-main.f151cf32.js",
-    "static/js/2.9d550760.chunk.js",
+    "static/js/2.099b4457.chunk.js",
     "static/css/main.be8411be.chunk.css",
-    "static/js/main.ef8229b5.chunk.js"
+    "static/js/main.f83d0cbc.chunk.js"
   ]
 }
