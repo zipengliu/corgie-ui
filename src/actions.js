@@ -18,9 +18,7 @@ import { range as lodashRange } from "lodash";
 import datasetsInfo from "./datasets";
 import UmapWorker from "./umap.worker";
 import bs from "bitset";
-
-// const SERVER_URL = "http://localhost:8787";
-const SERVER_URL = "http://3.144.104.69:8787";
+import { SERVER_URL } from "./initialState";
 
 function findHopsInDatasetInfo(id) {
     const defaultHops = 2;

@@ -1,5 +1,8 @@
 import { bin as d3bin } from "d3";
 
+// export const SERVER_URL = "http://localhost:8787";
+export const SERVER_URL = "http://3.144.104.69:8787";
+
 export default {
     loaded: false,
     datasetId: null,

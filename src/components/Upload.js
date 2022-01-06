@@ -5,15 +5,15 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 import AppNav from "./AppNav";
+import { SERVER_URL } from "../initialState";
 
 function humanFileSize(size) {
     var i = Math.floor(Math.log(size) / Math.log(1024));
     return (size / Math.pow(1024, i)).toFixed(2) * 1 + " " + ["B", "kB", "MB", "GB", "TB"][i];
 }
 
-const CORGIE_URL = "http://localhost:3000";
-const UPLOAD_URL = "http://localhost:8787/upload";
-const STATUS_URL = "http://localhost:8787/status";
+const UPLOAD_URL = `${SERVER_URL}/upload`;
+const STATUS_URL = `${SERVER_URL}/status`;
 const required = {
     name: "dataset name",
     hops: "#hops",
@@ -22,6 +22,7 @@ const required = {
 };
 
 function UploadModal({ datasetId, done }) {
+    const location = window.location;
     return (
         <Modal show backdrop="static" size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
             <Modal.Header closeButton>
@@ -32,7 +33,7 @@ function UploadModal({ datasetId, done }) {
             <Modal.Body>
                 <div>
                     <p>Dataset ID: {datasetId}.</p>
-                    <p>Dataset URL: {CORGIE_URL + "/" + datasetId}</p>
+                    <p>Dataset URL: {location.origin + location.pathname + "#/" + datasetId}</p>
                     <p>This ID (or URL) is the only access to your dataset. Please save it.</p>
                     {done && (
                         <Button variant="primary">
