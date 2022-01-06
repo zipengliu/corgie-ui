@@ -13,7 +13,7 @@ function humanFileSize(size) {
 }
 
 const UPLOAD_URL = `${SERVER_URL}/upload`;
-const STATUS_URL = `${SERVER_URL}/status`;
+// const STATUS_URL = `${SERVER_URL}/status`;
 const required = {
     name: "dataset name",
     hops: "#hops",
@@ -115,14 +115,21 @@ export default class Upload extends Component {
                 mode: "cors",
                 body: f,
             })
-                .then((response) => response.text())
+                .then((response) => {
+                    if (response.ok) {
+                        return response.text(); 
+                    } else {
+                        throw new Error("Upload failed");
+                    }
+                })
                 .then((datasetId) => {
                     console.log("File transfer succeeded.  Dastaset ID: ", datasetId);
                     this.setState({ datasetId });
 
                     let that = this;
                     const polling = setInterval(() => {
-                        fetch(STATUS_URL + "?" + new URLSearchParams({ id: datasetId }))
+                        // fetch(STATUS_URL + "?" + new URLSearchParams({ id: datasetId }))
+                        fetch(`${SERVER_URL}/data/${datasetId}/status`)
                             .then((r) => r.text())
                             .then((s) => {
                                 if (s === "1") {
