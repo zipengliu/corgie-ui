@@ -4,9 +4,9 @@ A visualization tool for graph neural networks.
 
 ## Demo
 
-[https://zipengliu.github.io/corgie-ui](https://zipengliu.github.io/corgie-ui)
+[http://corgie.site](http://corgie.site)
 
-You can upload your own datasets [here](https://zipengliu.github.io/corgie-ui/upload).
+You can upload your own datasets [here](http://corgie.site/upload).
 
 ## Paper
 
