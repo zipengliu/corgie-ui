@@ -764,6 +764,7 @@ const reducers = produce((draft, action) => {
     switch (action.type) {
         case ACTION_TYPES.FETCH_DATA_PENDING:
             draft.loaded = false;
+            draft.error = null;
             return;
         case ACTION_TYPES.FETCH_DATA_ERROR:
             draft.loaded = false;

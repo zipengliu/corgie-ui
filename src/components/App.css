@@ -376,7 +376,7 @@ a {
     /* background-color: #ddd; */
     background-color: rgb(231, 215, 164);
     /* border-top: 1px solid #aaa; */
-    padding: 5px;
+    padding: 5px 1rem;
     font-size: 0.8rem;
     justify-content: flex-start;
 }

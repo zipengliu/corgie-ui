@@ -25,7 +25,7 @@ function UploadModal({ datasetId, done }) {
     const location = window.location;
     return (
         <Modal show backdrop="static" size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-            <Modal.Header closeButton>
+            <Modal.Header>
                 <Modal.Title id="contained-modal-title-vcenter">
                     {done ? "Success" : "In progress"}
                 </Modal.Title>

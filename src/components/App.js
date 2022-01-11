@@ -70,7 +70,11 @@ class App extends Component {
 
         return (
             <div>
-                <AppNav datasetName={datasetName ? datasetName : datasetId} stats={{ numNodes, numEdges }} />
+                <AppNav
+                    datasetName={datasetName ? datasetName : datasetId}
+                    datasetId={datasetId}
+                    stats={{ numNodes, numEdges }}
+                />
 
                 <HighlightControl />
                 <div className="App" ref={this.appRef}>
