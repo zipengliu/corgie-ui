@@ -6,7 +6,7 @@ A visualization tool for graph neural networks.
 
 [http://corgie.site](http://corgie.site)
 
-You can upload your own datasets [here](http://corgie.site/upload).
+You can upload your own datasets [here](http://corgie.site/#/upload).
 
 ## Paper
 
