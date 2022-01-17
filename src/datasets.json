@@ -22,6 +22,17 @@
         "desc": "Demo dataset used in paper"
     },
     {
+        "id": "bipartite-user-movie-medium-3-user-feature-removed",
+        "name": "bipartite network (user-movie) medium 3 with user feature removed",
+        "source": "IMDB Movie",
+        "numNodes": 1088,
+        "numEdges": 5000,
+        "numTypes": 2,
+        "nodeFeatures": "yes",
+        "hops": 2,
+        "desc": "Demo dataset used in paper (with user feature removed)"
+    },
+    {
         "id": "bipartite-user-movie-medium-1",
         "name": "bipartite network (user-movie) medium 1",
         "source": "IMDB Movie",

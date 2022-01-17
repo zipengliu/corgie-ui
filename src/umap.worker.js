@@ -17,7 +17,7 @@ function initializeState(neighborMasks, neighborMasks1hop, distMetric) {
     state.distMetric = distMetric;
 }
 
-const minNNeigh = 15,
+const minNNeigh = 5,
     maxNNeigh = 25;
 const nNeighScale = scaleLinear().domain([minNNeigh, 1000]).range([minNNeigh, maxNNeigh]).clamp(true);
 // const minDistScale = scaleLinear()

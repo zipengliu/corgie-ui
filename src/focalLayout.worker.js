@@ -350,6 +350,7 @@ function computeFocalLayoutWithUMAP(selectedNodes, neighArr, embeddings, useEdge
             // console.log(`Transformation settings #${numTrans}: ${curEnergy} `, trans.slice());
             // const e = evaluateLayout(newCoords, nodesByHop);
             if (curEnergy < bestEnergy) {
+                console.log(curEnergy);
                 bestEnergy = curEnergy;
                 bestCoords = newCoords.map((c) => ({ ...c }));
                 bestTrans = trans.slice();
