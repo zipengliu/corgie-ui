@@ -1,0 +1,42 @@
+[
+    {
+        "nodeType": "movie",
+        "name": "budget",
+        "type": "scalar"
+    },
+    {
+        "nodeType": "movie",
+        "name": "cast_cnt",
+        "type": "scalar"
+    },
+    {
+        "nodeType": "movie",
+        "name": "crew_cnt",
+        "type": "scalar"
+    },
+    {
+        "nodeType": "movie",
+        "name": "vote_average",
+        "type": "scalar"
+    },
+    {
+        "nodeType": "movie",
+        "name": "vote_count",
+        "type": "scalar"
+    },
+    {
+        "nodeType": "movie",
+        "name": "popularity",
+        "type": "scalar"
+    },
+    {
+        "nodeType": "user",
+        "name": "avr",
+        "type": "scalar"
+    },
+    {
+        "nodeType": "user",
+        "name": "cnt",
+        "type": "scalar"
+    }
+]
