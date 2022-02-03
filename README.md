@@ -1,6 +1,6 @@
 # Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to its Embedding
 
-CorGIE is A visualization tool for graph neural networks.  This repo hosts the frontend code of CorGIE, and [the other repo](https://github.com/zipengliu/corgie-preprocess-server) hosts the backend code.
+CorGIE is a visualization tool for graph neural networks.  This repo hosts the frontend code of CorGIE, and [the other repo](https://github.com/zipengliu/corgie-preprocess-server) hosts the backend code.
 
 ## Demo
 
